@@ -36,6 +36,12 @@ body{
     background-color: #E02C6D;
     text-decoration: none;
     padding: 10px 20px;
+    
+}
+.btn:hover i{
+    transform: scale(1.2);
+    transition: ease-in-out 1s;
+    color: yellow;
 }
 .hero-img img{
     width: 100%;
@@ -47,3 +53,37 @@ body{
     transform: scale(1.05);  
 }
 /* ----------------/Hero section-------------- */
+
+/* ----------------Blog section-------------- */
+.article{
+    margin: 70px auto 0;
+    
+}
+.article-container{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+.blog-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 45px;
+    
+}
+.blog{
+    width: 330px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.blog-img img{
+    width: 300px;
+    height: 256px;
+}
+.blog-text h3{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 5px;
+}
+/* ----------------/Blog section-------------- */
