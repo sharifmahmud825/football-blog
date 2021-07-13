@@ -116,7 +116,7 @@ footer{
     
 }
 .footer-logo img{
-    width: 440px;
+    width: 400px;
     height: 110px;
     
 }
@@ -145,31 +145,28 @@ footer{
 /* ----------------Mobile devices-------------- */
 
 @media only screen and (max-width: 576px) {
-    body{
-        width: 100%;
-    }
+   
     .container{
         width: 100%;
         padding: 0;
     }
     .article-container{
         width: 100%;
-        padding: 0;
-        grid-column-gap: 0;
+        margin: 0 auto;
     }
     .hero{
         height: auto;
+        background-color: #2D25A0;
     }
     .container-fluid{
         flex-direction: column;
         justify-items: center;
+        
     }
     .blog-wrapper{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
-    }
-    .highlight-img{
-        margin-top: 50px;
+        padding: 0;
     }
     .footer-logo{
         margin: 0 auto;
