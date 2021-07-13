@@ -1,0 +1,49 @@
+/* ----------------Common styles-------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* ----------------/Common styles-------------- */
+
+/* ----------------Hero section-------------- */
+.hero{
+    background-color: #2D25A0;
+    height: 100vh;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text{
+    font-size: 40px;
+    font-weight: bold;
+    /* margin-top: 150px; */
+    color: #fff;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.hero-img img{
+    width: 100%;
+    margin-top: 50px;
+    transition: ease-in-out 1s;
+    
+}
+.hero-img img:hover{
+    transform: scale(1.05);  
+}
+/* ----------------/Hero section-------------- */
