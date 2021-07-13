@@ -22,6 +22,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 .hero-text{
     font-size: 40px;
@@ -56,7 +57,7 @@ body{
 
 /* ----------------Blog section-------------- */
 .article{
-    margin: 70px auto 0;
+    margin: 70px auto;
     
 }
 .article-container{
@@ -87,3 +88,92 @@ body{
     margin: 5px;
 }
 /* ----------------/Blog section-------------- */
+
+
+/* ----------------Highlight section-------------- */
+.highlight{
+    margin: 150px 0;
+}
+.highlight-text h1{
+    font-size: 48px;
+}
+.highlight-text p{
+    margin-bottom: 30px;
+}
+.highlight-img img{
+    width: 567px;
+    height: 427px;
+}
+/* ----------------/Highlight section-------------- */
+
+
+/* ----------------Footer section-------------- */
+footer{
+    padding: 40px;
+}
+.footer-logo{
+    margin: 0 300px 0;
+    
+}
+.footer-logo img{
+    width: 440px;
+    height: 110px;
+    
+}
+.social-icon{
+    font-size: 16px;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    margin-bottom: 15px;
+   
+}
+.fab{
+    background-color: #0B0D17;
+    opacity: 0.1; 
+    padding: 10px;
+    border-radius: 50%;
+}
+.social-icon i{
+    margin-left: 10px;
+    
+}
+.footer-text{
+    text-align: center;
+}
+/* ----------------/Footer section-------------- */
+
+/* ----------------Mobile devices-------------- */
+
+@media only screen and (max-width: 576px) {
+    body{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        padding: 0;
+    }
+    .article-container{
+        width: 100%;
+        padding: 0;
+        grid-column-gap: 0;
+    }
+    .hero{
+        height: auto;
+    }
+    .container-fluid{
+        flex-direction: column;
+        justify-items: center;
+    }
+    .blog-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .highlight-img{
+        margin-top: 50px;
+    }
+    .footer-logo{
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+/* ----------------/Mobile devices-------------- */
