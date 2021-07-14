@@ -106,6 +106,38 @@ body{
 }
 /* ----------------/Highlight section-------------- */
 
+/* ----------------form section-------------- */
+.contact{
+    margin: 80px;
+}
+.form-title{
+    text-align: center;
+    font-size: 36px;
+}
+.form{
+    margin-left: 350px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+
+}
+.form input{
+    width: 50%;
+    border: 2px solid black;
+    margin: 10px 0;
+    padding: 10px 15px; 
+}
+
+.form-btn{
+    border: none;
+    background-color: black;
+    color: #fff;
+    border: 2px solid black;
+    padding: 10px 15px;
+}
+
+/* ----------------/form section-------------- */
+
 
 /* ----------------Footer section-------------- */
 footer{
@@ -190,6 +222,15 @@ footer{
     }
     .footer-logo{
         margin: 0 auto;
+        width: 100%;
+    }
+    .form{
+        margin: 40px 0;
+    }
+    .form input{
+        width: 100%;
+    }
+    .form-btn{
         width: 100%;
     }
     
