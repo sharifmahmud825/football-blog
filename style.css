@@ -198,4 +198,60 @@ footer{
 
 /* ----------------Tablet devices-------------- */
 
+@media only screen and (min-width: 575px) and (max-width: 991px) {
+    .hero , .article , .highlight , footer{
+        width: 100%;
+    }
+    .container{
+        width: 80%;
+        padding: 0;
+    }
+    .article-container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .container-fluid{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        grid-column-gap: 10px;
+        
+        
+    }
+    .blog-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    .hero{
+        width: 100%;
+        background-color: #2D25A0;
+        height: auto;
+    }
+    .hero-text h1{
+        font-size: 36px;
+    }
+    .hero-img{
+        width: auto;
+    }
+    .hero-img img{
+        width: 80%;
+    }
+    .highlight-text h1{
+        font-size: 28px;
+    }
+    .highlight-img{
+        margin-top: 50px;
+        width: 80%;
+        
+    }
+    .footer-logo{
+        margin-left: 100px;
+        width: 100%;
+    }
+}
 /* ----------------/Tablet devices-------------- */
