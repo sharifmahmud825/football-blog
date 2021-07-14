@@ -19,7 +19,8 @@ body{
     height: 100vh;
 }
 .container-fluid{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -27,7 +28,6 @@ body{
 .hero-text{
     font-size: 40px;
     font-weight: bold;
-    /* margin-top: 150px; */
     color: #fff;
 }
 .btn{
@@ -145,32 +145,57 @@ footer{
 /* ----------------Mobile devices-------------- */
 
 @media only screen and (max-width: 576px) {
-   
-    .container{
+    .hero , .article , .highlight , footer{
         width: 100%;
+    }
+    .container{
+        width: 80%;
         padding: 0;
     }
     .article-container{
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
     }
-    .hero{
-        height: auto;
-        background-color: #2D25A0;
-    }
     .container-fluid{
-        flex-direction: column;
+        grid-template-columns: 1fr;
         justify-items: center;
+        justify-content: center;
+        padding: 0;
         
     }
     .blog-wrapper{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
+        justify-content: center;
         padding: 0;
+        width: 100%;
+    }
+
+    .hero{
+        width: 100%;
+        background-color: #2D25A0;
+        height: auto;
+    }
+    .hero-text{
+        width: 100%;
+    }
+    .hero-img{
+        width: auto;
+    }
+    .hero-img img{
+        width: 100%;
+    }
+    .highlight-img{
+        margin-top: 50px;
     }
     .footer-logo{
         margin: 0 auto;
         width: 100%;
     }
+    
 }
 /* ----------------/Mobile devices-------------- */
+
+/* ----------------Tablet devices-------------- */
+
+/* ----------------/Tablet devices-------------- */
